@@ -60,11 +60,11 @@ p {
 #hero__animation__img {
   background-image: var(--tl-1);
   height: 80%;
-  width: 160%;
+  width: 100%;
   background-position: center;
   background-size: cover;
   position: absolute;
-  right: -12%;
+  right: 12%;
 
 }
 
