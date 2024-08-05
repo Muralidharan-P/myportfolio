@@ -408,8 +408,8 @@ button {
 @media (max-width:767px){
   #hero__animation__img {
   background-image: var(--tl-1);
-  height: 80%;
-  width: 100%;
+  height: 70%;
+  width: 107%;
   background-position: center;
   background-size: cover;
   position: absolute;
