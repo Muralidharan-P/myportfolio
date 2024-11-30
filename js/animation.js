@@ -422,39 +422,39 @@ animateCircles();
 
 
 
-brBtn.onclick = function () {
-  if (activeCorner === "bottom-right") {
-    playClosingAnimation("reverse-animate-bottom-right");
-  } else {
-    tlBtn.innerHTML = "About";
-    trBtn.innerHTML = "Experience";
-    blBtn.innerHTML = "Projects";
+// brBtn.onclick = function () {
+//   if (activeCorner === "bottom-right") {
+//     playClosingAnimation("reverse-animate-bottom-right");
+//   } else {
+//     tlBtn.innerHTML = "About";
+//     trBtn.innerHTML = "Experience";
+//     blBtn.innerHTML = "Projects";
 
-    // Setting activeCorner
-    activeCorner = "bottom-right";
-    brBtn.innerHTML = "Contact<br/>&darr;";
+//     // Setting activeCorner
+//     activeCorner = "bottom-right";
+//     brBtn.innerHTML = "Contact<br/>&darr;";
 
-    handleWindowResize();
-    playAnimation("animate-bottom-right", "reverse-animate-bottom-right");
+//     handleWindowResize();
+//     playAnimation("animate-bottom-right", "reverse-animate-bottom-right");
 
-    // Change background colors
-    trBtn.style.background = bgColor;
-    brBtn.style.background = bgColorAlt;
-    blBtn.style.background = bgColor;
-    tlBtn.style.background = bgColor;
+//     // Change background colors
+//     trBtn.style.background = bgColor;
+//     brBtn.style.background = bgColorAlt;
+//     blBtn.style.background = bgColor;
+//     tlBtn.style.background = bgColor;
 
-    // Change text colors
-    trBtn.style.color = textColor;
-    brBtn.style.color = textColorAlt;
-    blBtn.style.color = textColor;
-    tlBtn.style.color = textColor;
+//     // Change text colors
+//     trBtn.style.color = textColor;
+//     brBtn.style.color = textColorAlt;
+//     blBtn.style.color = textColor;
+//     tlBtn.style.color = textColor;
 
-    // Change positions of the corner content
-    trContent.style.transform = trHidden;
-    brContent.style.transform = brActive;
-    blContent.style.transform = blHidden;
-    tlContent.style.transform = tlHidden;
-  }
-};
+//     // Change positions of the corner content
+//     trContent.style.transform = trHidden;
+//     brContent.style.transform = brActive;
+//     blContent.style.transform = blHidden;
+//     tlContent.style.transform = tlHidden;
+//   }
+// };
 
 
