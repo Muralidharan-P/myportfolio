@@ -135,8 +135,8 @@ p {
 /* TOP LEFT CORNER */
 
 #grid__tl__btn {
-  top: -11.5rem;
-  left: -11.5rem;
+  top: -9.5rem;
+  left: -9.5rem;
   transform: rotate(-45deg);
 }
 
@@ -194,8 +194,8 @@ article p {
 /* TOP RIGHT CORNER */
 
 #grid__tr__btn {
-  top: -11.5rem;
-  right: -11.5rem;
+  top: -9.5rem;
+  right: -9.5rem;
   transform: rotate(45deg);
 }
 
@@ -253,8 +253,8 @@ article p {
 /* BOTTOM LEFT CORNER */
 
 #grid__bl__btn {
-  bottom: -11.5rem;
-  left: -11.5rem;
+  bottom: -9.5rem;
+  left: -9.5rem;
   transform: rotate(45deg);
 }
 
@@ -349,8 +349,8 @@ button {
 /* BOTTOM RIGHT CORNER */
 
 #grid__br__btn {
-  bottom: -11.5rem;
-  right: -11.5rem;
+  bottom: -9.5rem;
+  right: -9.5rem;
   transform: rotate(-45deg);
 }
 
